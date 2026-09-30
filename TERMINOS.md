@@ -1,7 +1,7 @@
 # Términos y Condiciones de Uso — KioscoApp
 
 **Contrato de Licencia de Uso de Software**
-Última actualización: 27 de agosto de 2026
+Última actualización: 30 de septiembre de 2026
 
 > Este es un resumen para que sepas a qué te comprometés antes de instalar. El texto completo se muestra (y hay que aceptarlo) durante la instalación.
 
@@ -34,7 +34,7 @@ No está permitido:
 - Eliminar avisos de copyright o de titularidad del Licenciante.
 - Usarlo en más equipos que los autorizados, o compartir una clave entre distintos comercios.
 
-El incumplimiento habilita al Licenciante a suspender o revocar la licencia de forma inmediata, sin perjuicio de las acciones legales que correspondan.
+El incumplimiento habilita al Licenciante a dar por terminada la licencia y a no renovarla ni emitir nuevas claves para ese comercio, sin perjuicio de las acciones legales que correspondan.
 
 ## 5. Datos y privacidad
 
@@ -48,7 +48,7 @@ El Software se provee "tal cual", sin garantías de ningún tipo. El Licenciante
 
 ## 7. Vigencia y terminación
 
-La licencia se mantiene mientras se abone en tiempo y forma el período contratado. El Licenciante puede suspender o revocar el acceso remotamente ante falta de pago, incumplimiento de las restricciones de uso, o fraude comprobado.
+La licencia tiene una fecha de vencimiento y se renueva por cada período abonado en tiempo y forma. Al vencer, el Software deja de permitir su uso hasta que se active una nueva licencia. El Licenciante puede negarse a renovar la licencia o a emitir nuevas claves ante falta de pago, incumplimiento de las restricciones de uso, o fraude comprobado. Tus datos no se borran al vencer la licencia: siguen en tu equipo y en tus copias de seguridad.
 
 ## 8. Actualizaciones
 
