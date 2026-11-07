@@ -6,6 +6,8 @@
 2. Ejecutalo, aceptá los [Términos y Condiciones](TERMINOS.md), y elegí dónde instalar (o dejá la carpeta que sugiere por defecto).
 3. Al abrir la app por primera vez, te va a pedir activar la licencia.
 
+La app ajusta sola el tamaño de la pantalla según tu monitor, así que se ve bien tanto en notebooks chicas (desde 1366x768) como en pantallas grandes.
+
 KioscoApp se abre una sola vez: si hacés doble clic en el ícono con la app ya abierta, te trae la ventana que ya estaba, no abre otra.
 
 ## 2. Activar la licencia
@@ -36,7 +38,11 @@ Es la pantalla principal — ahí se cobra.
 
 1. **Agregá productos:** escaneá con el lector de código de barras, buscá por nombre o marca, o tocá la tarjeta del producto. Sin lector, podés escanear con la cámara de la PC o **con tu celular** (botón del celular → escaneás el QR con el celu conectado a la misma WiFi, y cada código que apuntes se agrega solo).
 2. **¿El código no está cargado?** Te aparece "+ Crear producto con este código": lo das de alta en el momento y queda en el carrito.
-3. **Productos por peso** (fiambre, verdura, alimento suelto): botón **"Vender por peso"** (F3), elegís el producto y cargás los kilos o gramos.
+3. **Productos por peso** (fiambre, verdura, alimento suelto): botón **"Vender por peso"** (F3), elegís el producto y cargás la cantidad de alguna de estas formas:
+   - **kg** o **g:** escribís el peso, o tocás uno de los botones rápidos (100 g, 250 g, 500 g, 1 kg).
+   - **$ (por monto):** si el cliente pide "2000 pesos de jamón", elegís **$**, escribís 2000 y la app te muestra cuánto pesa y cobra exactamente ese monto.
+
+   Con **"Agregar y seguir cargando"** podés sumar varios productos por peso (tomate, zanahoria, etc.) sin cerrar la ventana, y al final **"Agregar todo al carrito"**.
 4. **Cobrar** (F4): elegís el medio de pago.
    - **Efectivo:** cargás con cuánto paga (o tocás un billete sugerido / "Exacto") y la app calcula el vuelto.
    - **Débito / Crédito:** cobrás con el posnet y confirmás.
@@ -80,7 +86,11 @@ Lista de las ventas de hoy (el cajero ve solo las suyas). Desde acá podés:
 
 Alta, baja y edición de productos: nombre, marca, categoría, código de barras, precio de costo y de venta, stock actual y stock mínimo. Cuando el stock de un producto queda por debajo del mínimo, se marca para reponer.
 
-**Cargar muchos productos de una:** botón **Importar productos**, desde un Excel. Con **Descargar plantilla** te bajás el modelo para completar.
+Los productos que se venden **por peso** (fiambre, verdura, alimento suelto) tienen su propia pestaña, **"Por peso"**: ahí el precio y el stock se cargan por kilo. Cada pestaña tiene sus propias categorías y su propia plantilla de Excel.
+
+**Cargar muchos productos de una:** botón **Importar productos**, desde un Excel. Con **Descargar plantilla** te bajás el modelo para completar (hay uno para "Productos" y otro para "Por peso").
+
+Antes de importar se abre una **vista previa** donde podés corregir cualquier dato (nombre, precio, stock, categoría...), sacar con la **×** los productos que no querés cargar, o sumar uno nuevo con **"+ Agregar producto"**. Si una categoría ya existe del otro tipo (por ejemplo, "Almacén" de productos por unidad y la querés usar en "Por peso"), la fila se marca en rojo y la cambiás ahí mismo.
 
 **Reponer stock** (botón ±): cargás la cantidad y, si querés, cómo lo pagaste — efectivo de la caja, fondo de stock, o a cuenta del proveedor. Cada ajuste queda en el historial del producto, y si te equivocaste lo podés **deshacer** desde ahí (se revierte el stock y la plata).
 
@@ -128,7 +138,7 @@ Tus datos se guardan automáticamente en la nube mientras KioscoApp está abiert
 
 KioscoApp se actualiza solo: cuando hay una versión nueva, la baja en segundo plano y **la instala cuando cerrás sesión o cerrás la app** — nunca en medio de una venta. Si querés instalarla en el momento, tocá **"Reiniciar ahora"** en el aviso que aparece abajo. No hace falta volver a descargar nada de acá.
 
-Para ver qué versión tenés, mirá la esquina de abajo a la derecha de la app (por ejemplo, "v1.9").
+Para ver qué versión tenés, mirá la esquina de abajo a la derecha de la app (por ejemplo, "v1.11").
 
 ## ¿Necesitás ayuda?
 

@@ -21,7 +21,7 @@ Requisitos: Windows 10 o 11 (64 bits). El instalador te va a pedir aceptar los [
 **Para vender rápido**
 - Ventas por lector de código de barras, por búsqueda, o escaneando con la **cámara de la PC o de tu celular** (sin comprar lector)
 - Todos los medios de pago: efectivo (con vuelto calculado al toque), débito, crédito, transferencia y fiado
-- Venta de productos **por peso** (fiambrería, verdulería, alimento suelto)
+- Venta de productos **por peso** (fiambrería, verdulería, alimento suelto): cargás kilos o gramos, o directamente **el monto en pesos** ("dame 2000 de jamón") y la app calcula cuánto pesa y te cobra justo ese valor
 - Promociones por producto (% de descuento o precio fijo por cantidad), aplicadas solas
 - Si escaneás algo que no está cargado, lo creás ahí mismo y seguís vendiendo
 - Ticket para imprimir y atajos de teclado para no soltar el lector
@@ -36,7 +36,8 @@ Requisitos: Windows 10 o 11 (64 bits). El instalador te va a pedir aceptar los [
 
 **Para manejar el negocio**
 - Control de stock con historial de movimientos y alertas de stock mínimo
-- Carga masiva de productos desde Excel
+- Carga masiva de productos desde Excel, con una vista previa donde podés corregir, quitar o agregar productos antes de importar
+- Se adapta al tamaño de tu pantalla: pensada para notebooks (desde 1366x768) y monitores grandes
 - Reportes de ventas, medios de pago, productos más vendidos y ganancia por producto
 - Usuarios con PIN y tres roles (dueño, encargado, cajero), cada uno con lo suyo
 
